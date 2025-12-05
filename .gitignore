@@ -1,32 +1,24 @@
 # Terraform directories
 .terraform/
 
-# Terraform state files
+# Terraform state
 *.tfstate
 *.tfstate.*
+
+# Sensitive variables
+*.tfvars
+*.tfvars.json
 
 # Crash logs
 crash.log
 
-# Terraform lock file
+# Lock file
 .terraform.lock.hcl
 
-# Sensitive variable files
-*.tfvars
-*.tfvars.json
-
-# Override files
-*_override.tf
-*_override.tf.json
-
-# Local env
-.terraformrc
-terraform.rc
-
-# IDE settings
+# IDE
 .vscode/
 .idea/
 
-# MacOS files
+# MacOS
 .DS_Store
 
